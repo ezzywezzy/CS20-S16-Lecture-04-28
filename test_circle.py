@@ -1,4 +1,5 @@
 import pytest
+from circle_functions import *
 def test_areaCircle_1():
     assert(areaCircle(1.0)== 3.1415926535)
 def test_circumfernceCircle_1():
