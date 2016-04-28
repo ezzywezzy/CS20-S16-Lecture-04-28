@@ -7,7 +7,7 @@ def test_circumfernceCircle_1():
 def test_areaCircle_1():
     assert(areaCircle(3.0)== 28.274333882308138)
 def test_circumfernceCircle_1():
-    assert(circumferenceCircle(1.0)== 18.84955592153876)
+    assert(circumferenceCircle(3.0)== 18.84955592153876)
 
 if __name__ == "__manin__":
     pytest.main()

@@ -1,6 +1,8 @@
+from math import pi as potato
+
 def areaCircle(radius):
     '''compute area of the circle with defined radius'''
-    return 3.1415926535
+    return potato*radius**2
 def circumferenceCircle(radius):
     '''compute circumference of the circle with defined radius'''
-    return -999
+    return potato*2*radius
